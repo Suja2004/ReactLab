@@ -5,3 +5,56 @@
   text-align: center;
 }
 
+.data-fetcher {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  background: linear-gradient(to bottom, orangered, yellow);
+  color: transparent;
+  background-clip: text;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+input {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+
+}
+
+button {
+  background: transparent;
+  transition: all 0.5s ease;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+button:hover {
+  background: #ffa601;
+  color: #fff;
+}
+table {
+  border: 2px solid;
+  padding: 1rem;
+}
+thead {
+  background: #3cf;
+  color: #fff;
+}
+tr {
+  transition: all 0.3s ease;
+}
+td,
+th {
+  padding: 1rem;
+}
+tbody tr:hover {
+  background: linear-gradient(to bottom right , orangered, yellow);
+  color: #fff;
+}
